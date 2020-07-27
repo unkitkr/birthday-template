@@ -1,0 +1,123 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.mainplane{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%);
+}
+
+.container-contents{
+    margin:auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 70%;
+    height: 70%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.excuse-test{
+    padding-top: 100px;
+    font-family: 'Karla', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #130714;
+    line-height: 1.2;
+}
+
+.namereq{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
+
+.name_input{
+    width: 300px;
+    color: #130714;
+    margin: auto;
+}
+
+.name_input:focus{
+
+    color: #130714 !important;
+    border-color: #130714 !important;
+    box-shadow: none !important;
+
+}
+
+.md-form label{
+    color: #ffffff !important;
+}
+
+.md-form label:focus{
+    color: #130714 !important;
+}
+
+.center{
+    display: inline-block;
+}
+
+.btn-next{
+    background: #7367F0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.carousel{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.greetplane{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.birthday-greet{
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #331235;
+}
+
+.seperator{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 6px;
+    width: 200px;
+    background-color: #584dd8;
+}
+
+.textwish{
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 700;
+}
