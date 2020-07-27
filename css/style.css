@@ -176,3 +176,26 @@ body{
     font-size: 30px;
     font-weight: 300; 
 }
+
+.mobiletext{
+    display: block;
+    margin-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 900; 
+}
+
+.desktoptext{
+    display: none;
+}
+
+@media only screen  and (min-width : 900px){
+
+    .desktoptext{
+        display: block;
+    }
+    .mobiletext{
+        display: none;
+    }
+
+}
